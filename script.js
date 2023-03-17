@@ -1,6 +1,14 @@
 'use strict';
 
 //Autor: Hamilton Fuzer de Oliveira
+//Regras
+console.log(
+  'Guess my number é um jogo simples, você começa com 20 pontos e precisa acertar um número de 1 a 20'
+);
+console.log(
+  'Sempre que você erra a sua pontuação cai, e o jogo informa se o número escolhido é muito alto ou muito baixo'
+);
+console.log('Você vai saber quando ganhar!!! =D');
 
 function gerador() {
   const secretNumber = Math.trunc(Math.random() * 20) + 1;
